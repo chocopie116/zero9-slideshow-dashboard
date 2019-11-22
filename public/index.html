@@ -6,23 +6,31 @@
    <script type="text/javascript">
        $(document).ready(function(){
            $('.bxslider').bxSlider({
-               mode: 'fade',
                auto: true,
                infiniteLoop: true,
-               speed: 300, //4sec
+               speed: 500, //5sec
                pager: false,
-
            });
        });
    </script>
         </head>
+
         <body>
+<style>
+-- hide white margin
+body {
+    margin: 0px;
+}
+.bx-wrapper {
+    box-shadow: 0px;
+    border: 0px;
+}
+</style>
    <ul class="bxslider">
        <li><img src="/img/slides.001.jpeg"></li>
        <li><img src="/img/slides.002.jpeg"></li>
        <li><img src="/img/slides.003.jpeg"></li>
        <li><img src="/img/slides.004.jpeg"></li>
-       <li><img src="/img/slides.005.jpeg"></li>
    </ul>
         </body>
 </html>
